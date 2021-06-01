@@ -1,0 +1,19 @@
+{
+  "name": "phonebook",
+  "version": "0.0.1",
+  "description": "phonebook backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanAltwarg/Phonebook.git"
+  },
+  "author": "Evan Altwarg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvanAltwarg/Phonebook/issues"
+  },
+  "homepage": "https://github.com/EvanAltwarg/Phonebook#readme"
+}
