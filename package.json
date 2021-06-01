@@ -1,10 +1,12 @@
 {
-  "name": "phonebook",
+  "name": "phonebook-backend",
   "version": "0.0.1",
   "description": "phonebook backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/EvanAltwarg/Phonebook/issues"
   },
-  "homepage": "https://github.com/EvanAltwarg/Phonebook#readme"
+  "homepage": "https://github.com/EvanAltwarg/Phonebook#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
